@@ -21,6 +21,7 @@ router.get('/login', function(req, res, next){
     db.query(consulta, (err, result)=>{
         if(err) throw err;
         res.json(result);
+        
     });
 });
 

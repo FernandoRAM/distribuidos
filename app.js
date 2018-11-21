@@ -15,9 +15,9 @@ app.get('/', function (req, res) {
 });
 
 const agente = require('./api/agente');
-const administrador = require('./api/administrador');
+//const administrador = require('./api/administrador');
 
 app.use('/agente', agente);
-app.use('/administrador', agente);
+//app.use('/administrador', agente);
 
 app.listen(port);
