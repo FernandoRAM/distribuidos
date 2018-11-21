@@ -8,14 +8,15 @@
     "npm": "6.4.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "web" : "npm node app.js",
-    "start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
     "mysql": "^2.16.0"
+  },
+  "scripts":{
+    "start": "node app.js"
   }
 }
